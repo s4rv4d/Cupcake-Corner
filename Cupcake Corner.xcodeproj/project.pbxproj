@@ -13,6 +13,9 @@
 		40666FB423D6BFD6003582C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40666FB323D6BFD6003582C5 /* Assets.xcassets */; };
 		40666FB723D6BFD6003582C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40666FB623D6BFD6003582C5 /* Preview Assets.xcassets */; };
 		40666FBA23D6BFD6003582C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40666FB823D6BFD6003582C5 /* LaunchScreen.storyboard */; };
+		40666FC223D7E150003582C5 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40666FC123D7E150003582C5 /* Order.swift */; };
+		40666FC423D7E561003582C5 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40666FC323D7E561003582C5 /* AddressView.swift */; };
+		4076374823D88ADC00EC4E70 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4076374723D88ADC00EC4E70 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		40666FB623D6BFD6003582C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40666FB923D6BFD6003582C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40666FBB23D6BFD6003582C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40666FC123D7E150003582C5 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		40666FC323D7E561003582C5 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		4076374723D88ADC00EC4E70 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				40666FB823D6BFD6003582C5 /* LaunchScreen.storyboard */,
 				40666FBB23D6BFD6003582C5 /* Info.plist */,
 				40666FB523D6BFD6003582C5 /* Preview Content */,
+				40666FC123D7E150003582C5 /* Order.swift */,
+				40666FC323D7E561003582C5 /* AddressView.swift */,
+				4076374723D88ADC00EC4E70 /* CheckoutView.swift */,
 			);
 			path = "Cupcake Corner";
 			sourceTree = "<group>";
@@ -148,7 +157,10 @@
 			files = (
 				40666FAE23D6BFD3003582C5 /* AppDelegate.swift in Sources */,
 				40666FB023D6BFD3003582C5 /* SceneDelegate.swift in Sources */,
+				4076374823D88ADC00EC4E70 /* CheckoutView.swift in Sources */,
+				40666FC223D7E150003582C5 /* Order.swift in Sources */,
 				40666FB223D6BFD3003582C5 /* ContentView.swift in Sources */,
+				40666FC423D7E561003582C5 /* AddressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
